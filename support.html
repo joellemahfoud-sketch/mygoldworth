@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyGoldWorth - Support</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #FAF9F6;
+        }
+        h1 {
+            color: #D4AF37;
+            border-bottom: 3px solid #D4AF37;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #555;
+            margin-top: 30px;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .contact-box {
+            background-color: #FFF9E6;
+            border-left: 4px solid #D4AF37;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        a {
+            color: #D4AF37;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .faq-item {
+            margin: 25px 0;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+        }
+        .faq-question {
+            font-weight: bold;
+            color: #D4AF37;
+            margin-bottom: 8px;
+        }
+        .faq-answer {
+            color: #555;
+        }
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        li {
+            margin: 8px 0;
+        }
+        .icon {
+            display: inline-block;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>MyGoldWorth Support</h1>
+        <p>Welcome to MyGoldWorth support! We're here to help you track your gold and silver portfolio with ease.</p>
+
+        <div class="contact-box">
+            <h2 style="margin-top: 0;">📧 Contact Us</h2>
+            <p><strong>Email:</strong> <a href="mailto:sjoelle.mahfoud@lau.edu">Support Email</a></p>
+            <p><strong>Response Time:</strong> We typically respond within 24-48 hours</p>
+            <p><strong>Privacy Policy:</strong> <a href="privacy.html">View our Privacy Policy</a></p>
+        </div>
+
+        <h2>❓ Frequently Asked Questions (FAQ)</h2>
+
+        <div class="faq-item">
+            <div class="faq-question">Q: What is MyGoldWorth?</div>
+            <div class="faq-answer">
+                MyGoldWorth is a mobile app that helps you track your gold and silver portfolio. You can record items by weight and purity, and the app calculates their current market value in real-time using live precious metal prices.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Q: How do I add a gold or silver item?</div>
+            <div class="faq-answer">
+                Tap the "+" button on the home screen, then enter the item details:
+                <ul>
+                    <li>Item name (e.g., "Wedding Ring", "Silver Coin")</li>
+                    <li>Weight in grams</li>
+                    <li>Purity (e.g., 24K = 99.9%, 18K = 75%, Sterling Silver = 92.5%)</li>
+                    <li>Optional: Purchase price and date for profit/loss tracking</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Q: Where is my data stored?</div>
+            <div class="faq-answer">
+                All your portfolio data is stored <strong>locally on your device</strong> using SQLite database. We do NOT upload your data to any servers. Your information stays completely private and secure on your device.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Q: How accurate are the gold and silver prices?</div>
+            <div class="faq-answer">
+                We fetch real-time prices from a reliable precious metals API. Prices are updated regularly and reflect current market rates. However, actual selling prices may vary depending on your dealer and market conditions.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Q: What if I see "Price Service Unavailable"?</div>
+            <div class="faq-answer">
+                This message appears when the app cannot fetch current prices from the API (due to internet connectivity or API issues). Your data is safe, and prices will update once the connection is restored. Try refreshing or checking your internet connection.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Q: How do I track profit/loss?</div>
+            <div class="faq-answer">
+                When adding or editing an item, fill in the "Purchase Information" section with:
+                <ul>
+                    <li>Purchase price per gram</li>
+                    <li>Purchase date</li>
+                </ul>
+                The app will automatically calculate your profit/loss and ROI (Return on Investment) based on current market prices.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Q: What purity percentages should I use?</div>
+            <div class="faq-answer">
+                Common gold purities:
+                <ul>
+                    <li>24K (pure gold): 99.9%</li>
+                    <li>22K: 91.6%</li>
+                    <li>18K: 75%</li>
+                    <li>14K: 58.3%</li>
+                    <li>10K: 41.7%</li>
+                </ul>
+                Common silver purities:
+                <ul>
+                    <li>Fine silver: 99.9%</li>
+                    <li>Sterling silver: 92.5%</li>
+                    <li>Coin silver: 90%</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Q: Can I export my data?</div>
+            <div class="faq-answer">
+                Currently, data export is not available, but this feature is on our roadmap for future updates. Your data remains secure on your device.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Q: Why do I see ads in the app?</div>
+            <div class="faq-answer">
+                MyGoldWorth is a free app supported by advertisements (Google AdMob). Ads help us keep the app free while continuing to provide updates and improvements. Ads are displayed respectfully and don't interfere with core functionality.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Q: How do I delete an item?</div>
+            <div class="faq-answer">
+                On the home screen, swipe left on any item to reveal the delete option, or tap the item to edit and look for the delete button.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Q: What currencies are supported?</div>
+            <div class="faq-answer">
+                Currently, the app displays values in USD and EUR. You can switch between currencies using the dropdown in the home screen.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Q: Will my data be backed up?</div>
+            <div class="faq-answer">
+                Since data is stored locally, it may be backed up as part of your device's system backup (iCloud for iOS, Google Drive for Android). If you uninstall the app, you may lose your data unless it's included in your device backup.
+            </div>
+        </div>
+
+        <h2>🐛 Report a Bug</h2>
+        <p>Found a bug or issue? Please email us at <a href="mailto:joelle.mahfoud@lau.edu">Support Email</a> with:</p>
+        <ul>
+            <li>Device model and OS version</li>
+            <li>Description of the issue</li>
+            <li>Steps to reproduce the problem</li>
+            <li>Screenshots (if applicable)</li>
+        </ul>
+
+        <h2>💡 Feature Requests</h2>
+        <p>Have an idea for a new feature? We'd love to hear from you! Send your suggestions to <a href="mailto:joelle.mahfoud@lau.edu">Support Email</a>.</p>
+
+        <h2>📱 App Information</h2>
+        <p><strong>Current Version:</strong> 1.0.0</p>
+        <p><strong>Supported Platforms:</strong> iOS, Android</p>
+
+        <hr style="margin-top: 40px; border: 0; border-top: 1px solid #ddd;">
+        <p style="text-align: center; color: #999; font-size: 14px;">
+            © 2026 MyGoldWorth. All rights reserved.<br>
+            <a href="privacy.html">Privacy Policy</a>
+        </p>
+    </div>
+</body>
+</html>
